@@ -10,7 +10,10 @@ age int,
 result int
 );
 drop table HR;
+
 alter table HR ADD remark varchar(20);
+
 alter table HR DROP column remark;
+
 alter table HR modify column result int;
 
